@@ -6,6 +6,7 @@
 <body style="background-color: white;">
 
 <table border="0"> <!-- Description table -->
+<caption>
     <tr>
         <th colspan="2">Sample Application JSP Page</th>
     </tr>
@@ -16,6 +17,7 @@
             This is the output of a JSP page that is part of the Hello, World application.
         </td>
     </tr>
+</caption>
 </table>
 
 <%= new String("Hello!") %>
