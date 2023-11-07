@@ -18,6 +18,7 @@ jobs:
         source: "EmileALBERICI.war"
         target: "/opt/tomcat/webapps"        
     Deploy:
+      needs: AWS
       name: IPFS
       runs-on: ubuntu-latest
       steps:
