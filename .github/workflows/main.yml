@@ -18,7 +18,7 @@ jobs:
         source: "EmileALBERICI.war"
         target: "/opt/tomcat/webapps"        
     
-      name: Deploy
+      name: IPFS
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@master
