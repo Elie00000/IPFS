@@ -4,8 +4,8 @@
     <title>Sample Application JSP Page</title>
 </head>
 <body style="background-color: white;">
-<!-- Description table -->
-<table border="0">
+
+<table border="0"> <!-- Description table -->
     <tr>
         <th colspan="2">Sample Application JSP Page</th>
     </tr>
