@@ -38,5 +38,9 @@ jobs:
         run: |
           ls -la 
           ipfs swarm peers
-          ipfs add EmileALBERICI.war
+          ipfs add EmileALBERICI.war > cid.txt
         shell: alpine.sh --root {0}
+      - name: Enregistrement fichier texte
+        run: |
+          CID=$(ipfs add -q EmileALBERICI.war)
+          echo "$CID" > cid.txt
