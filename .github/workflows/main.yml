@@ -42,5 +42,5 @@ jobs:
         shell: alpine.sh --root {0}
       - name: Enregistrement fichier texte
         run: |
-          CID=$(ipfs add -q EmileALBERICI.war)
-          echo "$CID" > cid.txt
+            cid=$(cat cid.txt)
+            echo "$cid"
