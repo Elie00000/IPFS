@@ -22,12 +22,6 @@ jobs:
           ipfs swarm peers
           ipfs add EmileALBERICI.war
         shell: alpine.sh --root {0}
-      - name: Save CID to a Text File
-        run: |
-          CID=$(ipfs add -q EmileALBERICI.war)
-          TIMESTAMP=$(date +%Y%m%d%H%M%S)
-          FILENAME="cid_$TIMESTAMP.txt"
-          echo "$CID" > "$FILENAME"
-
+      
 
         
