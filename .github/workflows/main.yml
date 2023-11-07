@@ -19,7 +19,7 @@ jobs:
         target: "/opt/tomcat/webapps"
 
   deploy:
-    name: SAV IPFS
+    name: IPFS
     runs-on: ubuntu-latest
     needs: build
     steps:
