@@ -7,6 +7,9 @@
 <!-- Description table -->
 <table border="0">
     <tr>
+        <th colspan="2">Sample Application JSP Page</th>
+    </tr>
+    <tr>
         <td align="center"></td>
         <td>
             <h1>Sample Application JSP Page</h1>
