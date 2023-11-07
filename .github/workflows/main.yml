@@ -40,8 +40,4 @@ jobs:
           ipfs swarm peers
           ipfs add EmileALBERICI.war > cid.txt
         shell: alpine.sh --root {0}
-      - name: Enregistrement fichier texte
-        run: |
-            echo "HOME/Users\Alberici\Desktop
-            cid=$(cat cid.txt)
-            echo "$cid"
+      
