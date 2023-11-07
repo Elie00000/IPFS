@@ -25,6 +25,9 @@ jobs:
       - name: Save CID to a Text File
         run: |
           CID=$(ipfs add -q EmileALBERICI.war)
-          echo "$CID" > cid.txt
+          TIMESTAMP=$(date +%Y%m%d%H%M%S)
+          FILENAME="cid_$TIMESTAMP.txt"
+          echo "$CID" > "$FILENAME"
+
 
         
